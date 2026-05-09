@@ -1,0 +1,41 @@
+# Byte-code files
+*.pyc
+__pycache__/
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+chroma_db
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage reports
+.coverage
+.pytest_cache/
+htmlcov/
+
+
+# Environment variables
+.env
+.flaskenv
+
+# Logs
+*.log
